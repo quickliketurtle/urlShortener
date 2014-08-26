@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Sigmar One';
+    src: url(http://fonts.gstatic.com/s/sigmarone/v6/aRAZJs6CY7SV6eSg6Wx4jwsYbbCjybiHxArTLjt7FRU.woff2);
+}
+
 h1 {
     text-align: center;
     margin-bottom: 1em;
-    font-family: Open Sans;
+    font-family: 'Sigmar One', 'cursive';
 }
 
 .alert { text-align: center; }
