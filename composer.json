@@ -1,0 +1,25 @@
+{
+    "name": "finley/slim-links-shortener",
+    "description": "URL Shortener build with Slim framework",
+    "require": {
+        "slim/slim": "2.4.*",
+        "slimcontroller/slimcontroller": "dev-master",
+        "php-activerecord/php-activerecord": "dev-master"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
+    "authors": [
+        {
+            "name": "Jeff Finley",
+            "email": "quickliketurtle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "UrlShortener\\": "src/UrlShortener"
+        }
+    }
+}
