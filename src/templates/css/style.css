@@ -27,9 +27,7 @@ h1 {
     font-size: 1.9em;
 }
 
-.error {
-    color: red;
-    font-style: italic;
+.message, .error {
     text-align: center;
     margin-top: 1em;
 }
